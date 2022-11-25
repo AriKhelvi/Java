@@ -16,6 +16,14 @@ public class Main {
             if(sc.hasNextInt()) {mas[i] = sc.nextInt();}
             else{System.out.print("Вы ввели неккоректные данные. попытайтесь ещё раз позже.");return;}
         }
-
+        int s=0;
+        for(int i=0;i<n;i++){
+            s+=mas[i];
+        }
+        int ans = s/n;
+        System.out.print("Сумма членов массива:");
+        System.out.print(s);
+        System.out.print("\nСреднее арифметическое членов массива:");
+        System.out.print(ans);
     }
 }
