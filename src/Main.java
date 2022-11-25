@@ -21,9 +21,5 @@ public class Main {
             s+=mas[i];
         }
         int ans = s/n;
-        System.out.print("Сумма членов массива:");
-        System.out.print(s);
-        System.out.print("\nСреднее арифметическое членов массива:");
-        System.out.print(ans);
     }
 }
